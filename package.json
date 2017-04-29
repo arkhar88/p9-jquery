@@ -1,0 +1,29 @@
+{
+  "name": "kodilla-js1",
+  "version": "1.0.0",
+  "description": "First JS kodilla project",
+  "main": "index.js",
+  "scripts": {
+    "test": "kdl-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arkhar88/kodilla-js1.git"
+  },
+  "keywords": [
+    "kodilla",
+    "js"
+  ],
+  "author": "arkhar88",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arkhar88/kodilla-js1/issues"
+  },
+  "homepage": "https://github.com/arkhar88/kodilla-js1#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
