@@ -1,10 +1,18 @@
-var Get_triangle_area = function(base, height) {
-    if (base <= 0 || height <= 0) return 0;
-    return (base * height) / 2;
-};
+var span = $('span');
+span.css('color', 'blue');
+span.each(function(ind, elem) {
+    if (ind % 2 === 0) {
+        $(elem).css('color', 'grey');
+    }
+});
 
-console.log(Get_triangle_area(10, 4));
+var p = $('p');
+p.each(function(ind, elem) {
+    var btn = '<button class="btn" data-tmp="' + ind + '"> klik klik </button>';
+    $(elem).append(btn);
+});
 
-var a = Get_triangle_area(1, 2);
-var b = Get_triangle_area(2, 3);
-var c = Get_triangle_area(3, 4);
+
+$('button').click(function() {
+    alert($(this).attr('data-tmp'));
+});

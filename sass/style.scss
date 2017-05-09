@@ -1,29 +1,20 @@
-$text-color: pink;
+@import url( 'https://fonts.googleapis.com/css?family=Abril+Fatface|Pacifico');
 
-@mixin trans ($sec) {
-  transition: $sec;
+p {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    margin: 100px;
 }
 
-.letter-div {
-  background-color: white;
-  cursor: pointer;
-  margin-top: 30vh;
-  @include trans(0.3s);
-}
-
-.letter-div p {
-  font-size: 200px;
-  text-align: center;
-  color: $text-color;
-  @include trans(0.3s);
-}
-
-.letter-div:hover {
-  background-color: black;
-  @include trans(0.3s);
-}
-
-.letter-div:hover p {
-  color:white;
-  @include trans(0.3s);
+button {
+    font-family: 'Pacifico', cursive;
+    margin-left: 200px;
+    padding: 30px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 80px;
+    background-color: black;
 }
