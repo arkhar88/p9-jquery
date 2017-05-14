@@ -1,24 +1,36 @@
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <title>JQUERY TEST</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>JQUERY TEST CAROUSEL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-    <body>
-        <div>
-            <p><span>Spam</span></p>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <section class="container">
+        <div id="js-test-carousel">
+            <div id="js-arrow-left" class="js-carousel-move-btn">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </div>
+            <div id="js-arrow-right" class="js-carousel-move-btn">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </div>
+            <div class="js-carousel-counter-container">
+
+            </div>
+            <ul>
+                <li><img src="img/1.jpg" alt="1"></li>
+                <li><img src="img/2.jpg" alt="1"></li>
+                <li><img src="img/3.jpg" alt="1"></li>
+                <li><img src="img/4.jpg" alt="1"></li>
+            </ul>
         </div>
-        <div>
-            <p>Pam param</p>
-        </div>
-        <div>
-            <p>Trapa tam</p>
-        </div>
-        <script type="text/javascript" src="js/script.js"></script>
-    </body>
+    </section>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
 
 </html>
